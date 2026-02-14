@@ -7,10 +7,12 @@
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "outDir": "./dist"
+        "outDir": "./dist",
+        "rootDir": "./src"
     },
     "include": [
-        "**/*.ts"
+        "src/**/*.ts",
+        "vite-env.d.ts"
     ],
     "exclude": [
         "node_modules"
