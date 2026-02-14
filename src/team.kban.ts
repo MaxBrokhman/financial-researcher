@@ -5,7 +5,7 @@ import { researchTask } from './tasks/researchTask';
 import { analysisTask } from './tasks/analysisTask';
 
 const team = new Team({
-    name: 'Company Research Team',
+    name: 'Company Financial Research Team',
     agents: [researcher, analyst],
     tasks: [researchTask, analysisTask],
     inputs: {
